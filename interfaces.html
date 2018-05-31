@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   <title>Proyectos-Diseño de Interfaz-Gmz-Diseño Gráfico</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+    
+      <!-- Carga de fuentes -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+   
+    
+    <!-- Carga de archivos css -->
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/estilos.css">
+
+<!-- Carga de iconos -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+ 
+   </head>
+  
+  <body class="paginas-internas6">
+
+   <section class="bienvenidos">
+      <header class="encabezado navbar fixed-top" role="banner" id="encabezado">
+        <div class="container">
+         <a href="index.html" class="logo">
+             <img src="images/logo.svg" alt="Logo del sitio">
+         </a>
+
+          <button type="button" class="boton-menu hidden-md-up" data-toggle="collapse" data-target="#menu-principal" aria-expanded="false">
+          <i class="fa fa-bars" aria-hidden="true"></i></button>
+    
+       
+       <nav id="menu-principal" class="collapse">
+          <ul > 
+                <li><a href="index.html">Inicio</a></li>
+                        <li><a href="introduccion.html">Introducción</a></li>
+                        <li class="active"><a href="proyectos.html">Proyectos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+             </nav>
+             </div>
+             
+            
+             </header>
+                       
+            
+            <section class="etiqueta1" id="etiqueta">
+   
+            <div class="int col-xs-12 ">
+                 
+                 <h1 class="Proy display-4 text-left  ">Diseño de Interfaces </h1>
+               <img src="images/interfaz.svg" class="inter img-fluid">
+               </div>
+               </section>
+             
+             <section class="project py-1" id="project">
+
+            <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    
+    <li class="breadcrumb-item"><a href="proyectos.html">Proyectos</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Diseño de Interfaces</li>
+  </ol>
+</nav>
+ </section>
+  
+   
+    <div class="container ">
+        <div class="row">
+       
+     <img src="images/practi-100.jpg" class="hover-shadow" class="inter img-fluid">
+  <a href="#" class="btn btn-info " onclick="openModal();currentSlide(1)" role="button">Ver Mas</a>
+     
+     
+  </div>    
+
+            
+
+           
+        </div> 
+           
+     
+    
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 1</div>
+      <img src="images/p2.jpg" style="width:100%">
+    </div>
+   
+   
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+ 
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+  
+    <div class="column">
+      <img class="demo" src="images/p1.jpg" class="img-fluid" onclick="currentSlide(1)" alt="PractiPro">
+    </div>
+    
+    </div>
+</div>        
+       
+    </section>
+
+<footer class="piedepagina py-1" role="contentinfo">
+  <div class="container">
+   <p>2018 © Miguel Gómez</p>
+    <ul class="redes-sociales">
+       <li><a href="https://www.instagram.com/mgmz95/"><i class="fa fa-instagram"></i></a></li>
+           <li><a href="https://www.behance.net/iamguarneros"><i class="fa fa-behance"></i></a></li>
+           <li><a href="https://www.youtube.com/channel/UCNmwnZZxBIPHoQwQKcJmXgQ/videos"><i class="fa fa-youtube"></i></a></li>
+    </ul>
+    </div>
+</footer>
+ 
+   <!-- Carga de archivos Js -->
+   <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      
+      <script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+  </body>
+</html>

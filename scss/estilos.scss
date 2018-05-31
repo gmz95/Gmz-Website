@@ -1,0 +1,1203 @@
+//------------------------------
+// PATRON DE COLORES
+//------------------------------
+$texton:#2D2628;
+$textob:#FFFFFF;
+$color1:#1B435D;
+$color2:#D21536;
+$color3:#CD5726;
+$color4:#2380BB;
+$color5:#D1C6C6;
+$color6:#C3B919;
+
+html {
+    font-size: 15px;
+}
+body {
+   font-family: 'Roboto', sans-serif;
+font-family: 'Oswald', sans-serif;
+    color: $texton;  
+}
+
+
+
+
+.encabezado {
+    background: $textob;
+    padding: .5rem 0;
+   
+}
+
+.encabezado .container{
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+   
+
+}
+
+
+
+.encabezado .logo img{
+    width: 70px;
+        height:auto;
+}
+
+/*Estilos para el boton:  menu*/
+.boton-menu :hover {
+    color: $color3;
+}
+
+.boton-menu {
+  border: 0;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0 1rem;
+    background: transparent;
+    color: $color1;
+        
+}
+
+
+.boton-menu:focus {
+    outline: 0;
+}
+.boton-menu {
+    margin-left: auto;
+
+}
+
+#menu-principal{
+    flex: 1 1 100%;
+}
+
+#menu-principal ul{
+padding: 0;
+    list-style: none;
+        margin: 1rem 0 0 0;
+}
+
+#menu-principal ul a{
+display: block;
+    padding: .8rem 0;
+    text-align: center;
+    color: $color4;
+    border-top: 1px solid $color1;
+    text-decoration: none;
+    
+}
+
+#menu-principal ul a:hover,
+    #menu-principal ul li.active a{
+color: $color3;
+    
+}
+
+
+ #encabezado  {
+        color: $texton;
+        border-bottom: 5px solid
+            
+    }
+
+
+.texto-encabezado .display-4{
+    margin-top:1rem;
+}
+
+
+
+.descubre img{
+  width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: .5rem;
+  margin-top: 3rem;
+    
+      
+}
+
+/*-------------------------------------------
+ESTILOS PAGINA INTRODUCCIÓN
+--------------------------------------------*/
+
+.paginas-internas .bienvenidos {
+    background: url("../images/fondo-encabezado.jpg") no-repeat center top;
+    color: #fff;
+    background-size: cover;
+    background-attachment: fixed !important;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.paginas-internas .hola  {
+      padding-top: 4rem;
+  
+}
+
+.paginas-internas .intro  {
+    padding: 0rem;
+      font-size: 4rem;
+    color:$color2;
+    font-family: Oswald; 
+}
+
+.paginas-internas .bien  {
+    font-family: Roboto; 
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.paginas-internas .miguel  {
+    font-family: Roboto; 
+}
+
+.paginas-internas .h3 text-xs-left  {
+      padding-top: 2rem;
+}
+
+.paginas-internas .habilidades  {
+          color:$color3;
+    border-top: 5px solid;
+   
+}
+
+.paginas-internas .hab  {
+          color:$color1;
+    padding-left: 5rem;
+   
+}
+
+.paginas-internas .adobe  {
+       padding-top: 2rem;
+    text-align: center;
+    color: $texton;
+    font-family: Roboto; 
+    font-weight: 400;
+}
+
+.paginas-internas .programas  {
+       padding-top: 2rem;
+    text-align: center;
+    color: $texton;
+    font-family: Roboto; 
+    font-weight: 400;
+}
+
+
+    
+
+
+/*-------------------------------------------
+ESTILOS PAGINA PROYECTOS
+--------------------------------------------*/
+.paginas-internas2 .vector  {
+    display: flex;
+     background-color: $color1;
+    color: $textob;
+    
+}
+
+
+.paginas-internas2.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.paginas-internas2 .gallery_product
+{
+    margin-bottom: 1px;
+}
+.paginas-internas2 .port-image
+{
+    width: 100%;
+}
+ 
+.paginas-internas2 .column .btn1 {
+   position: absolute;
+    top: 93%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    background-color: #1B435D;
+    color: white;
+    font-size: 10px;
+    padding: 2px 7px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: left;
+
+}
+
+.paginas-internas2 .column   .btn1:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.paginas-internas2 .ilust, .animation {
+    font-size: 5vw;
+    text-align: center;
+    padding-top: 5rem;
+    padding-right:10rem;
+   
+}
+
+.paginas-internas2 .mod, .design {
+    font-size: 5vw;
+    text-align: center;
+    padding-top: 5rem;
+    padding-right:8rem;
+     
+   
+}
+
+.paginas-internas2 .container  {
+  position: relative;
+  width: 95%;
+}
+
+.paginas-internas2 .container .btn {
+  position: absolute;
+  top: 92%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: $color1;
+  color: white;
+  font-size: 10px;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+     font-family: 'Oswald', sans-serif;
+}
+
+.paginas-internas2 .container .btn:hover {
+  background-color: $color3;
+}
+
+@media (min-width: 320px) {
+   .paginas-internas2 .container .btn {
+  position: absolute;
+  top: 92%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: $color1;
+  color: white;
+  font-size: 6px;
+  padding: 3px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+    
+    }
+
+
+@media (min-width: 1200px) {
+   .paginas-internas2 .container .btn {
+  position: absolute;
+  top: 92%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: $color1;
+  color: white;
+  font-size: 10px;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+        font-family: 'Oswald', sans-serif;
+}
+    
+    }
+/*-------------------------------------------
+ESTILOS PAGINA ILUSTRACION-GRAFICOS
+--------------------------------------------*/
+.paginas-internas3 .nodo  {
+    display: flex;
+     background-color: $color3;
+    color: $textob;
+    
+}
+
+.paginas-internas3 .tableta    {
+   margin-left: 20rem;
+    display: flex;
+    width: 500px;
+    
+}
+.paginas-internas3 .port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+.paginas-internas3 .container  {
+  position: relative;
+  width: 95%;
+}
+
+.paginas-internas3 .container .btn {
+  position: absolute;
+  top: 92%;
+  left: 19%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: $color1;
+  color: white;
+  font-size: 10px;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.paginas-internas3 .container .btn:hover {
+  background-color: $color3;
+}
+
+
+.paginas-internas3 .row > .column {
+  padding: 0 2px;
+}
+
+.paginas-internas3 .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.paginas-internas3 .column {
+  float: left;
+  width: 25%;
+}
+
+
+.paginas-internas3 .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+
+.paginas-internas3 .modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+
+.paginas-internas3 .close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.paginas-internas3 .close:hover,
+.close:focus {
+  color: $color4;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.paginas-internas3 .mySlides {
+  display: none;
+}
+
+
+.paginas-internas3 .prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+.paginas-internas3 .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.paginas-internas3 .prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.paginas-internas3 .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.paginas-internas3 .caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.paginas-internas3 img.demo {
+  opacity: 0.6;
+    height: 300px;
+}
+
+.paginas-internas3 .active,
+.demo:hover {
+  opacity: 1;
+}
+
+.paginas-internas3 img.hover-shadow {
+  transition: 0.3s
+}
+
+.paginas-internas3 .hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+@media (min-width: 320px) {
+   .paginas-internas3 .container .btn {
+  position: absolute;
+  top: 92%;
+  left: 23%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: $color1;
+  color: white;
+  font-size: 6px;
+  padding: 3px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+    
+    }
+
+
+@media (min-width: 1200px) {
+   .paginas-internas3 .container .btn {
+  position: absolute;
+  top: 92%;
+  left: 19%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: $color1;
+  color: white;
+  font-size: 10px;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+    
+    }
+
+
+/*-------------------------------------------
+ESTILOS PAGINA MODELADO 3D
+--------------------------------------------*/
+.paginas-internas4 .hola  {
+    display: flex;
+     background-color: $color5;
+    color: $texton;
+    
+}
+
+.paginas-internas4 .trid    {
+   padding-left: 20rem;
+    display: flex;
+    width: 500px;
+    
+}
+
+.paginas-internas4 .port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+.paginas-internas4 .container  {
+  position: relative;
+  width: 95%;
+}
+
+.paginas-internas4 .container .btn {
+  position: absolute;
+  top: 92%;
+  left: 19%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: $color1;
+  color: white;
+  font-size: 10px;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.paginas-internas4 .container .btn:hover {
+  background-color: $color3;
+}
+
+
+.paginas-internas4 .row > .column {
+  padding: 0 2px;
+}
+
+.paginas-internas4 .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.paginas-internas4 .column {
+  float: left;
+  width: 25%;
+}
+
+
+.paginas-internas4 .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+
+.paginas-internas4 .modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+
+.paginas-internas4 .close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.paginas-internas4 .close:hover,
+.close:focus {
+  color: $color4;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.paginas-internas4 .mySlides {
+  display: none;
+}
+
+
+.paginas-internas4 .prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+.paginas-internas4 .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.paginas-internas4 .prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.paginas-internas4 .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.paginas-internas4 .caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.paginas-internas4 img.demo {
+  opacity: 0.6;
+    height: 300px;
+}
+
+.paginas-internas4 .active,
+.demo:hover {
+  opacity: 1;
+}
+
+.paginas-internas4 img.hover-shadow {
+  transition: 0.3s
+}
+
+.paginas-internas4 .hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+@media (min-width: 320px) {
+   .paginas-internas4 .container .btn {
+  position: absolute;
+  top: 92%;
+  left: 23%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: $color1;
+  color: white;
+  font-size: 6px;
+  padding: 3px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+    
+    }
+
+
+@media (min-width: 1200px) {
+   .paginas-internas4 .container .btn {
+  position: absolute;
+  top: 92%;
+  left: 19%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: $color1;
+  color: white;
+  font-size: 10px;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+    
+    }
+
+/*-------------------------------------------
+ESTILOS PAGINA ANIMACION-MOTION GRAPHICS
+--------------------------------------------*/
+.paginas-internas5 .anim  {
+    display: flex;
+     background-color: $color2;
+    color: $textob;
+    
+}
+
+.paginas-internas5 .anima    {
+   margin-left: 20rem;
+    display: flex;
+    width: 800px;
+    
+}
+
+ .video {
+    width: 100%;
+    height: auto;
+         margin-bottom: 1rem;
+    
+}
+
+/*-------------------------------------------
+ESTILOS PAGINA DISEÑO DE INTERFACES
+--------------------------------------------*/
+.paginas-internas6 .int  {
+    display: flex;
+     background-color: $color6;
+    color: $texton;
+    
+}
+
+.paginas-internas6 .inter    {
+   margin-left: 20rem;
+    display: flex;
+    width: 800px;
+    
+}
+
+.paginas-internas6 .port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+.paginas-internas6 .container  {
+  position: relative;
+  width: 95%;
+}
+
+.paginas-internas6 .container .btn {
+  position: absolute;
+  top: 92%;
+  left: 19%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: $color1;
+  color: white;
+  font-size: 10px;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.paginas-internas6 .container .btn:hover {
+  background-color: $color3;
+}
+
+
+.paginas-internas6 .row > .column {
+  padding: 0 2px;
+}
+
+.paginas-internas6 .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.paginas-internas6 .column {
+  float: left;
+  width: 25%;
+}
+
+.paginas-internas6 .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+
+.paginas-internas6 .modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+
+.paginas-internas6 .close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.paginas-internas6 .close:hover,
+.close:focus {
+  color: $color4;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.paginas-internas6 .mySlides {
+  display: none;
+}
+
+
+.paginas-internas6 .prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+.paginas-internas6 .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.paginas-internas6 .prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.paginas-internas6 .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.paginas-internas6 .caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.paginas-internas6 img.demo {
+  opacity: 0.6;
+    height: 300px;
+}
+
+.paginas-internas6 .active,
+.demo:hover {
+  opacity: 1;
+}
+
+.paginas-internas6 img.hover-shadow {
+  transition: 0.3s
+}
+
+.paginas-internas6 .hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+@media (min-width: 320px) {
+   .paginas-internas6 .container .btn {
+  position: absolute;
+  top: 92%;
+  left: 12%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: $color1;
+  color: white;
+  font-size: 22px;
+  padding: 3px 6px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+    
+    }
+
+
+@media (min-width: 1200px) {
+   .paginas-internas6 .container .btn {
+  position: absolute;
+  top: 92%;
+  left: 9%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: $color1;
+  color: white;
+  font-size: 24px;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+    
+    }
+
+/*-------------------------------------------
+ESTILOS PAGINA CONTACTO
+--------------------------------------------*/
+.paginas-internas7 .contacto  {
+    display: flex;
+     background-color: $color4;
+    color: $textob;
+    
+}
+
+.paginas-internas7  .msj     {
+   margin-left: 40rem;
+    display: flex;
+    width: 150px;
+    
+}
+
+.paginas-internas7  .ul .redes-sociales2     {
+      padding-left: 6rem;
+    padding-top: 2rem;
+
+}
+
+paginas-internas7  .container     {
+   
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+}
+
+.paginas-internas7  .ig, .be, .you    {
+   margin-left: 6rem;
+    display: flex;
+    width: 250px;
+    
+}
+
+.paginas-internas7  .ig, .be, .you     {
+   margin-left: 6rem;
+    display: flex;
+    width: 250px;
+    
+}
+
+.paginas-internas7  .red    {
+   margin-left: 1rem;
+   
+    
+}
+
+.paginas-internas7  .be, .you   {
+ padding : 1rem;
+   
+    
+}
+
+.paginas-internas7  .hi   {
+flex-wrap: wrap;
+   
+    
+}
+
+.paginas-internas7 .contact .ul  {
+    display: flex;
+    flex-direction: column;
+     background-color: $color4;
+    color: $textob;
+    
+}
+
+.paginas-internas7 .encuentrame  {
+    margin-left: 6rem;
+    
+}
+.paginas-internas7 .redes-sociales2 {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+   margin-left: 4rem;
+    margin-top: 2rem;
+    width: 4px;
+    
+    }
+
+
+
+ 
+/*Pie de pagina*/
+.container {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+.piedepagina{
+    background: $color5;
+    color: $color1;
+    text-align: center;
+        font-size: 1rem;
+    font-family:  'Roboto', sans-serif;
+    
+    
+}
+
+@media (min-width: 768px){
+.piedepagina .display-4 {
+    font-size: 5rem;
+    font-weight: 300;
+    padding: .1rem;
+    margin-top: 1rem;
+}
+}
+
+.piedepagina .redes-sociales {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.piedepagina .redes-sociales a {
+  color: $color1;
+    font-size: 2rem;
+    margin: 0 .5rem;
+    opacity: .7;
+    transition: all .5s ease;
+}
+
+.piedepagina .redes-sociales a:hover {
+    opacity: 1;
+}
+
+
+@media (min-width: 768px) {
+    
+    #menu-principal {
+        height: auto !important;
+        display: block;
+        flex: 0 1 auto;
+        margin-left: auto;
+        order: 1
+    }
+
+
+
+    #menu-principal ul {
+        display: flex;
+        margin: 0 0 0 0
+    }
+    #menu-principal ul li a {
+        padding: .8rem;
+        text-transform: capitalize;
+        margin: 0 .3rem;
+        border-top: 0px;
+        border-bottom: 4px solid transparent;
+        transition: all .5s ease
+    }
+    #menu-principal ul li.active a,
+    #menu-principal ul li a:hover  {
+        color: $color3;
+        border-bottom: 4px solid
+            
+    }
+    
+   } 
+
+@media (min-width: 576px) {
+    .display-4 {
+        font-size: 1rem;
+    font-weight: 100;
+    padding: 7.5rem;
+        
+    }
+    
+    }
+
+@media (min-width: 768px) {
+    .display-4 {
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 2.5rem;
+        margin-top: 1rem;
+    }
+    
+     .descubre img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: .5rem;
+    margin-top: 2rem;
+        }
+    
+    } 
+
+
+@media (min-width: 992px) {
+    .display-4 {
+        font-size:4rem;
+    font-weight: 300;
+    padding: 5rem;
+    }
+    
+    }
+
+@media (min-width: 1200px) {
+    .display-4 {
+        font-size: 6rem;
+    font-weight: 300;
+    padding: 7.5rem;
+    }
+    }
+
